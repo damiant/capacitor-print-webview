@@ -1,3 +1,3 @@
-export interface CapacitorPrintWebviewPlugin {
+export interface PrintWebviewPlugin {
   print(): Promise<void>;
 }

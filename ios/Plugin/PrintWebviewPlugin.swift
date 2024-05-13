@@ -5,10 +5,8 @@ import Capacitor
  * Please read the Capacitor iOS Plugin Development Guide
  * here: https://capacitorjs.com/docs/plugins/ios
  */
-@objc(CapacitorPrintWebviewPlugin)
+@objc(PrintWebviewPlugin)
 public class CapacitorPrintWebviewPlugin: CAPPlugin {
-    private let implementation = CapacitorPrintWebview()
-
     @objc func print(_ call: CAPPluginCall) {
         let webView = self.webView
         DispatchQueue.main.async {

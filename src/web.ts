@@ -1,13 +1,12 @@
 import { WebPlugin } from '@capacitor/core';
 
-import type { CapacitorPrintWebviewPlugin } from './definitions';
+import type { PrintWebviewPlugin } from './definitions';
 
 export class CapacitorPrintWebviewWeb
   extends WebPlugin
-  implements CapacitorPrintWebviewPlugin
+  implements PrintWebviewPlugin
 {
   async print(): Promise<void> {
-    console.log('PRINT');
     try {
       document.execCommand('print', false);
     } catch (e) {

@@ -13,10 +13,8 @@ import com.getcapacitor.PluginCall;
 import com.getcapacitor.PluginMethod;
 import com.getcapacitor.annotation.CapacitorPlugin;
 
-@CapacitorPlugin(name = "CapacitorPrintWebview")
-public class CapacitorPrintWebviewPlugin extends Plugin {
-
-    private CapacitorPrintWebview implementation = new CapacitorPrintWebview();
+@CapacitorPlugin(name = "PrintWebview")
+public class PrintWebviewPlugin extends Plugin {
 
     @PluginMethod
     public void print(PluginCall call) {

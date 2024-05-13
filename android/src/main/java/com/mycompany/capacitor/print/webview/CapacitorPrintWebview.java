@@ -4,8 +4,7 @@ import android.util.Log;
 
 public class CapacitorPrintWebview {
 
-    public String echo(String value) {
-        Log.i("Echo", value);
+    public String print(String value) {
         return value;
     }
 }

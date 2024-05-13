@@ -1,6 +1,6 @@
 {
   "name": "capacitor-print-webview",
-  "version": "0.0.1",
+  "version": "6.0.0",
   "description": "CapacitorPrintWebview Capacitor Plugin",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -25,7 +25,8 @@
   "keywords": [
     "capacitor",
     "plugin",
-    "native"
+    "native",
+    "print"
   ],
   "scripts": {
     "verify": "npm run verify:ios && npm run verify:android && npm run verify:web",

@@ -1,8 +1,7 @@
 import Foundation
 
 @objc public class CapacitorPrintWebview: NSObject {
-    @objc public func echo(_ value: String) -> String {
-        print(value)
+    @objc public func print(_ value: String) -> String {
         return value
     }
 }

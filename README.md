@@ -9,11 +9,21 @@ npm install capacitor-print-webview
 npx cap sync
 ```
 
+## Usage
+
+Calling `print()` will print the webview.
+
+```typescript
+import { PrintWebview } from 'capacitor-print-webview';
+...
+await PrintWebview.print();
+```
+
 ## API
 
 <docgen-index>
 
-* [`print()`](#print)
+- [`print()`](#print)
 
 </docgen-index>
 
@@ -26,6 +36,6 @@ npx cap sync
 print() => Promise<void>
 ```
 
---------------------
+---
 
 </docgen-api>

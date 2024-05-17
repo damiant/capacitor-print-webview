@@ -23,7 +23,7 @@ await PrintWebview.print();
 
 <docgen-index>
 
-- [`print()`](#print)
+* [`print()`](#print)
 
 </docgen-index>
 
@@ -36,6 +36,6 @@ await PrintWebview.print();
 print() => Promise<void>
 ```
 
----
+--------------------
 
 </docgen-api>

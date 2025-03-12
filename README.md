@@ -1,6 +1,6 @@
 # capacitor-print-webview
 
-CapacitorPrintWebview Capacitor Plugin
+Capacitor Plugin for a Print Preview of the WebView. Supports Capacitor 7.
 
 ## Install
 

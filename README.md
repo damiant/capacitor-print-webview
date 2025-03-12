@@ -1,11 +1,11 @@
-# capacitor-print-webview
+# Capacitor Print WebView
 
 Capacitor Plugin for a Print Preview of the WebView. Supports Capacitor 7.
 
 ## Install
 
 ```bash
-npm install capacitor-print-webview
+npm install @webnativellc/capacitor-print-webview
 npx cap sync
 ```
 
@@ -14,7 +14,7 @@ npx cap sync
 Calling `print()` will print the webview.
 
 ```typescript
-import { PrintWebview } from 'capacitor-print-webview';
+import { PrintWebview } from '@webnativellc/capacitor-print-webview';
 ...
 await PrintWebview.print();
 ```

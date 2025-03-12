@@ -1,6 +1,5 @@
 {
   "name": "@webnativellc/capacitor-print-webview",
-  "name": "capacitor-print-webview",
   "version": "7.0.0",
   "description": "CapacitorPrintWebview Capacitor Plugin",
   "main": "dist/plugin.cjs.js",

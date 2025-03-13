@@ -1,6 +1,6 @@
 {
   "name": "@webnativellc/capacitor-print-webview",
-  "version": "7.0.0",
+  "version": "7.0.1",
   "description": "CapacitorPrintWebview Capacitor Plugin",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -11,7 +11,7 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "CapacitorPrintWebview.podspec"
+    "WebnativellcCapacitorPrintWebview.podspec"
   ],
   "author": "Damian Tarnawsky",
   "license": "MIT",

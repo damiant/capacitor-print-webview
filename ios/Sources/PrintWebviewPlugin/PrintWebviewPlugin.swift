@@ -6,7 +6,12 @@ import Capacitor
  * here: https://capacitorjs.com/docs/plugins/ios
  */
 @objc(PrintWebviewPlugin)
-public class CapacitorPrintWebviewPlugin: CAPPlugin {
+public class CapacitorPrintWebviewPlugin: CAPPlugin, CAPBridgedPlugin {
+    public let identifier = "PrintWebviewPlugin" 
+    public let jsName = "PrintWebview" 
+    public let pluginMethods: [CAPPluginMethod] = [
+        CAPPluginMethod(name: "print", returnType: CAPPluginReturnPromise),
+    ] 
     @objc func print(_ call: CAPPluginCall) {
         let webView = self.webView
         DispatchQueue.main.async {

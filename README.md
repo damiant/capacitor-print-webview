@@ -9,6 +9,16 @@ npm install @webnativellc/capacitor-print-webview
 npx cap sync
 ```
 
+### Swift Package Manager (SPM)
+
+This plugin also supports installation via Swift Package Manager for iOS projects. Add the following to your `Package.swift`:
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/damiant/capacitor-print-webview.git", from: "7.1.0")
+]
+```
+
 ## Usage
 
 Calling `print()` will print the webview.
